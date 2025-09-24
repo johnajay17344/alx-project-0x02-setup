@@ -4,3 +4,8 @@ export interface User {
   email: string;
   age: number;
 }
+export interface CardProps  {
+  title: string;
+  content: string;
+  footer?: string;
+}
