@@ -1,6 +1,6 @@
 // pages/home.tsx
 import React from 'react';
-import Card from '../components/common/card';
+import Card from '@/components/common/card';
 
 export default function HomePage() {
   return (
