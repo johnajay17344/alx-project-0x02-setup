@@ -4,7 +4,7 @@
 
 This repository contains the initial setup and foundational structure for a modern web application using **Next.js**, **TypeScript**, and **Tailwind CSS**.
 
-It is part of a learning project aimed at understanding how to:
+It is part of a learning okay
 
 - Configure a Next.js project with TypeScript.
 - Style components using Tailwind CSS.
