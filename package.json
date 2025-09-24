@@ -1,0 +1,31 @@
+{
+  "name": "alx-project-0x02-setup-1",
+  "version": "1.0.0",
+  "description": "This repository contains the initial setup and foundational structure for a modern web application using **Next.js**, **TypeScript**, and **Tailwind CSS**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnajay17344/alx-project-0x02-setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnajay17344/alx-project-0x02-setup/issues"
+  },
+  "homepage": "https://github.com/johnajay17344/alx-project-0x02-setup#readme",
+  "dependencies": {
+    "next": "^15.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "typescript": "5.9.2"
+  }
+}
