@@ -1,11 +1,10 @@
 // pages/about.tsx
-import React from 'react';
-import Button from '../components/common/Button';
+import React from "react";
+import Button from "@/components/common/Button"; // import the actual Button component
+
 export default function AboutPage() {
   return (
-    <div>
-      <h1>About Us pages</h1>
-       <div style={{ padding: "2rem" }}>
+    <div style={{ padding: "2rem" }}>
       <h1>About Us</h1>
       <p>This page demonstrates reusable buttons.</p>
 
@@ -15,7 +14,5 @@ export default function AboutPage() {
         <Button size="large" shape="rounded-full">Large</Button>
       </div>
     </div>
-    </div>
-    
   );
 }
