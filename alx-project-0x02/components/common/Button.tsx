@@ -1,6 +1,6 @@
 // components/common/Button.tsx
 import React from "react";
-import { ButtonProps } from "@/interfaces"; // ✅ import from interfaces
+import { type ButtonProps } from "@/interfaces"; // ✅ import from interfaces
 
 export default function Button({ size = "medium", shape = "rounded-md", children, onClick }: ButtonProps) {
   const sizeClasses = {
