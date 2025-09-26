@@ -2,6 +2,7 @@
 import React from 'react';
 import Card from '@/components/common/Card';
 import { useState } from 'react';
+import Header from "@/components/layout/Header";
 import PostModal from '@/components/common/PostModal';
 
 export default function HomePage() {
@@ -13,6 +14,13 @@ export default function HomePage() {
 
   return (
     <div>
+       <div>
+      <Header />
+      <main style={{ padding: "2rem" }}>
+        <h1>Welcome to the Home Page</h1>
+        <p>This is the Home page of our Next.js app.</p>
+      </main>
+    </div>
       <h1>Welcome to the Home Page</h1>
       <Card title="Card Title" content="This is the card content." footer="Card Footer" />
 
