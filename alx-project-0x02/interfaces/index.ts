@@ -20,8 +20,21 @@ export interface ButtonProps {
 
 export interface PostCardProps {
   isOpen: boolean;
-  userId: string;
+  userId: number;
   onClose: () => void;
   onSubmit: (post: { title: string; content: string }) => void;
+  id: number;
+  title: string;
+  body: string;
+}
+export interface UserProps {
+  id: number;
+  name: string;
+  email: string;
+  address: {
+    street: string;
+    suite: string;
+    city: string;
+  };
 }
 

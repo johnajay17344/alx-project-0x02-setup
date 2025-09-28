@@ -1,7 +1,6 @@
 // components/common/PostModal.tsx
 import React, { useState } from "react";
-import { PostModalProps } from "@/interfaces";
-
+import { PostCardProps } from "@/interfaces";
 export default function PostModal({ isOpen, onClose, onSubmit }: PostModalProps) {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
