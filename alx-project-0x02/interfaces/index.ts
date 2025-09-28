@@ -18,8 +18,9 @@ export interface ButtonProps {
   onClick?: () => void;
 }
 
- export interface PostModalProps {
+export interface PostCardProps {
   isOpen: boolean;
+  userId: string;
   onClose: () => void;
   onSubmit: (post: { title: string; content: string }) => void;
 }
