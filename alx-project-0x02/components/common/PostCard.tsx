@@ -1,15 +1,11 @@
 // components/common/PostModal.tsx
 import React, { useState } from "react";
-
-interface PostModalProps {
-  isOpen: boolean;
-  onClose: () => void;
-  onSubmit: (post: { title: string; content: string }) => void;
-}
+import { PostModalProps } from "@/interfaces";
 
 export default function PostModal({ isOpen, onClose, onSubmit }: PostModalProps) {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
+
 
   if (!isOpen) return null; // Don’t render if modal is closed
 

@@ -3,7 +3,7 @@ import React from 'react';
 import Card from '@/components/common/Card';
 import { useState } from 'react';
 import Header from "@/components/layout/Header";
-import PostModal from '@/components/common/PostModal';
+import PostModal from '@/components/common/PostCard';
 
 export default function HomePage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
